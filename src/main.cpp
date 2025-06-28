@@ -8,7 +8,7 @@
 #include "core/worker.hpp"
 
 extern "C" void megaton_main() {
-    nn::fs::MountSdCardForDebug("sd");
+    nn::fs::MountSdCard("sd");
 
     botw::msg::info::init();
     botw::msg::widget::init();
